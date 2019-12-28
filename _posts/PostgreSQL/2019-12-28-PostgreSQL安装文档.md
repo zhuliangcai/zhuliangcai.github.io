@@ -1,7 +1,7 @@
 ---
 layout: post
 title: PostgreSQL安装文档
-categories: [SQL]
+categories: [SQL,PostgreSQL ]
 description: Postgres安装文档
 keywords: SQL, Postgres,PostgreSQL
 ---

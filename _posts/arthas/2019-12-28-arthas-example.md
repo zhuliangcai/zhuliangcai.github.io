@@ -1,7 +1,7 @@
 ---
 layout: post
 title: arthas性能调优分析举例
-categories: Blog
+categories: [java]
 description: 性能调优分析举例。
 keywords: 在线性能调优 , arthas , jvm
 ---
