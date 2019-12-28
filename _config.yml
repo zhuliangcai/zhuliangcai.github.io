@@ -18,8 +18,8 @@ side_bar_repo_limit: 5
 author: zhuliangcai
 organization: 
 organization_url: 
-github_username: mzlogin
-location: Wuhan, China
+github_username: zhuliangcai
+location: shenzhen, China
 email: zhuliangcai@aliyun.com
 
 # ---------------- #
@@ -81,7 +81,7 @@ collections:
         output: true
         permalink: /wiki/:path/
 
-repository: mzlogin/mzlogin.github.io
+repository: zhuliangcai/zhuliangcai.github.io
 
 # ---------------- #
 #      Comments    #
@@ -95,14 +95,14 @@ disqus:
     username: 
 # https://imsun.net/posts/gitment-introduction/
 gitment:
-    owner: mzlogin
+    owner: zhuliangcai
     repo: blog-comments
     oauth:
         client_id: d2e1cbbd298958076462
         client_secret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
 # https://github.com/gitalk/gitalk#install
 gitalk:
-    owner: mzlogin
+    owner: zhuliangcai
     repo: blog-comments
     clientID: d2e1cbbd298958076462
     clientSecret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
