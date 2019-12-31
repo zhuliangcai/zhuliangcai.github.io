@@ -34,15 +34,16 @@
 ## <img src="assets/tools-solid.svg" width="18px"> 技能清单
 
 - ★★★ Java 基础扎实：熟悉 IO、多线程、集合操作等基础技能
-- ★★★ 熟悉工厂、单例、代理、模板模式
-- ★★★ 熟悉Mybatis,SpringCloud,dubbo源码
-- ★★★ 使用 maven、svn、git 等工具，能够处理高并发
+- ★★★ 熟悉工厂、单例、代理、模板、策略、观察者模式 
+- ★★★ 熟悉Mybatis,Springboot,dubbo源码
+- ★★★ 使用arthas,jstack,jmap,jstat性能调优
+- ★★★ 使用 maven、svn、git 等工具，熟悉 Linux 下的常用命令
 - ★★★ 使用 Dubbo 做分布式应用、ZooKeeper注册中心,redis 做缓存、ActiveMQ 消息队列，freemarker 网页静态化
 - ★★★ 单点登陆，掌握 SpringBoot 开发应用，能够搭建 solr 集群作为站内搜索服务
-- ★★★ 熟悉 Linux 下的常用命令，熟悉 mysql 数据库,能够搭建 MySQL 主从备份，并做好 MySQL故障时的增量恢复
+- ★★★ 能够搭建 MySQL 主从备份，并做好 MySQL故障时的增量恢复，可以做数据迁移MySQL到PostgreSQL
 - ★★★ 集成微信、支付宝、银联等支付,自定义代码生成器，使用 Jenkins+Maven+git 做项目持续集成部署测试，使用 junit 和 eclemma 完成代码覆盖率测试
 - ★★☆ 熟悉 angularJs、vue.js 等前端框架,能够完成跨域处理
-- ★★☆ Scala、Python、Go
+- ★★☆ 了解Scala、Python、Go
 
 ## <img src="assets/briefcase-solid.svg" width="18px"> 工作经历
 
