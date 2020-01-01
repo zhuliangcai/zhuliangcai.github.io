@@ -8,6 +8,10 @@ keywords: docker,spark,容器
 
 docker中使用spark
 
+## 安装
+
+ docker pull docker.io/sequenceiq/spark
+
 ## 启动spark容器命令
 ```shell
  docker run -it -p 8088:8088 -p 8042:8042 -h sandbox docker.io/sequenceiq/spark bash
