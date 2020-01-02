@@ -50,13 +50,10 @@ navs:
     href: /about/
     label: 关于
   
-  -
-    href: http://dubbo.apache.org/zh-cn/docs/user/quick-start.html
-    label: dubbo官网快速开始
-  
-  -
-    href: https://segmentfault.com/a/1190000016842868
-    label: dubbo源码
+    -
+    href: /collect/
+    label: 收藏
+ 
 
 # ---------------- #
 #       RSS        #
