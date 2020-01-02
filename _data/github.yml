@@ -1,7 +1,69 @@
 - sitename: Dubbo
-  name: dubbo官网快速开始
+  name: Apache Dubbo官网快速开始
   url: http://dubbo.apache.org/zh-cn/docs/user/quick-start.html
 
-- sitename: Dubbo个人理解
-  name: dubbo源码导读
+- sitename: dubbo源码导读
+  name: Dubbo个人理解
   url: https://segmentfault.com/a/1190000016842868
+
+- sitename: JavaGuide
+  name: Java 学习+面试指南
+  url: https://github.com/Snailclimb/JavaGuide
+
+- sitename: java-design-patterns
+  name: 用 Java 实现的设计模式
+  url: https://github.com/iluwatar/java-design-patterns
+
+- sitename: elasticsearch
+  name: 开源，分布式，RESTful 搜索引擎
+  url: https://github.com/elastic/elasticsearch
+
+- sitename: advanced-java
+  name: 中华石杉的一个课程
+  url: https://github.com/doocs/advanced-java
+
+- sitename: mall
+  name: 很牛逼的实战项目，还附有详细的文档
+  url: https://github.com/macrozheng/mall
+
+- sitename: guava
+  name: Guava是一组核心库，其中包括新的集合类型
+  url: https://github.com/google/guava
+
+- sitename: Spark
+  name: Spark 是一个快速、通用的大规模数据处理引擎
+  url: https://github.com/apache/spark
+
+- sitename: arthas
+  name: Arthas 是 Alibaba 开源的 Java 诊断工具。
+  url: https://github.com/alibaba/arthas
+
+- sitename: awesome-java
+  name: Github 上非常棒的 Java 开源项目集合
+  url: https://github.com/Snailclimb/awesome-java
+
+- sitename: architect-awesome
+  name: 一套非常全面的后端架构师技术图谱，从数据结构与算法着手，带你学习后端技术的方方面面
+  url: https://github.com/xingshaocheng/architect-awesome
+
+- sitename: 12306
+  name: 支持12306的所有基本功能
+  url: https://github.com/testerSunshine/12306
+
+- sitename: chinese-poetry
+  name: 中华古诗词数据库
+  url: https://github.com/chinese-poetry/chinese-poetry
+
+- sitename: halo
+  name: 这是一款现代化的、轻快，简洁，功能强大，使用Java开发的博客系统
+  url: https://github.com/halo-dev/halo
+
+- sitename: BigData-Notes
+  name: 这是一个大数据入门教程，该教程介绍了大数据常用技术栈的基础和核心知识。
+  url: https://github.com/heibaiying/BigData-Notes
+
+
+
+
+
+
