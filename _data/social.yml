@@ -1,3 +1,11 @@
+- sitename: Dubbo
+  name: dubbo官网快速开始
+  url: http://dubbo.apache.org/zh-cn/docs/user/quick-start.html
+
+- sitename: Dubbo个人理解
+  name: dubbo源码导读
+  url: https://segmentfault.com/a/1190000016842868
+
 - sitename: GitHub
   name: mzlogin
   url: https://github.com/mzlogin
@@ -25,3 +33,4 @@
 - sitename: 豆瓣
   name: 壮哥不胖
   url: http://www.douban.com/people/freedim
+
