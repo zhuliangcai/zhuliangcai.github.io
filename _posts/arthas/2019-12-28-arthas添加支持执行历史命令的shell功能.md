@@ -1,7 +1,7 @@
 ---
 layout: post
 title: arthas github commit 
-categories: [java,arthas,jvm]
+categories: [java,arthas,性能调优,jvm]
 description: 增加历史命令。
 keywords: 在线性能调优 , arthas , jvm
 ---
