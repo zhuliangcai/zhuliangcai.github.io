@@ -1,14 +1,81 @@
 ---
 layout: post
-title: shell编程自动化脚本
+title: zookeeper相关自动化脚本
 categories: [linux,shell,自动化,脚本]
-description: shell编程自动化脚本
+description:  zookeeper相关自动化脚本
 keywords: linux,shell,自动化脚本
 ---
 
 自动化脚本,省去重复的烦恼
 
+## 单机版zookeeper实例并运行
+
+```shell
+#!/bin/bash
+<<!
+ **********************************************************
+ * Author        : 朱良才
+ * Email         : 1024955966@qq.com
+ * Last modified : 2016-01-13 00:20
+ * Filename      : z.singleton.zookeeper.sh
+ * Description   :
+ * *******************************************************
+!
+#默认安装zookeeper-3.4.6.tar.gz 脚本
+#创建单机版 zookeeper实例并运行
+###############################
+#以下是手动配置项
+###############################
+zoofiletar='zookeeper-3.4.6.tar.gz'
+zoodir='zookeeper-3.4.6'
+singlezoo='zookeeper-3.4.6.singleton'
+#如果文件夹存在则不解压文件zookeeper-3.4.6.tar.gz
+if [ ! -x $zoodir ]; then 
+   if [ $zoofiletar ];then
+      tar zxf $zoofiletar 
+   else
+   	 echo "you should give a filename like zookeeper-x.x.x.tar.gz" 
+   fi
+else
+   echo "$zoodir already exists!"
+fi
+
+#改名
+mv $zoodir $singlezoo
+
+cd $singlezoo
+zoopath=`pwd`
+mkdir $zoopath/data
+datadir="dataDir=${zoopath}/data"
+olddir=`grep "dataDir=" $zoopath/conf/zoo_sample.cfg`
+#echo "$olddir $datadir"
+myolddir=`echo $olddir | sed "s/\//\\\//g"`
+#echo "$myolddir"
+mydatadir=`echo $datadir | sed "s/\//\\\//g"`
+
+#获取dataDir=所在的行号
+num=`grep -n "dataDir=" $zoopath/conf/zoo_sample.cfg | cut -d':' -f1`
+#删除行 把内容存入临时文件
+sed "${num}d" $zoopath/conf/zoo_sample.cfg > $zoopath/conf/zoo.tmp.cfg
+
+# sed替换命令 a ∶ 新增， a 的后面可以接字串，而这些字串会在新的一行出现(目前的下一行)
+echo $mydatadir
+# 在just出现的位置的下一行添加 $mydatadir
+
+sed /just/a\\$mydatadir $zoopath/conf/zoo.tmp.cfg > $zoopath/conf/zoo.cfg
+echo "zookeeper is install ok!"
+
+path=`pwd`
+echo $path
+./bin/zkServer.sh start
+./bin/zkServer.sh status
+
+#zoofiletar=`ls -al|grep "^-.*zookeeper.*\.tar\.gz" | cut -d' ' -f 11`
+```
+
 ## 集群启动脚本
+
+start-cluster-better.sh
 
 ```shell
 #!/bin/bash
@@ -279,6 +346,7 @@ $statuszoos
 ```
 ## zookeeper自动化多实例集群创建脚本
 
+创建真分布式 zookeeper集群 create.new.node.sh
 ```shell
 #!/bin/bash
 <<!
