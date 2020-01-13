@@ -54,6 +54,9 @@ navs:
     href: /collect/
     label: 收藏
  
+  -
+    href: /Resume.html
+    label: resume
 
 # ---------------- #
 #       RSS        #
