@@ -10,12 +10,15 @@ count = 0
 
 def list_files(path):
     global count
+    #print(path)
     files = os.listdir(path)
-    for file in files:
+    for name in files:
+        file = path+'\\'+name
+        # print(file)
         if os.path.isdir(file):
             list_files(file)
         else:
-            print(file)
+            print(name)
             count=count + 1
     return count
 
