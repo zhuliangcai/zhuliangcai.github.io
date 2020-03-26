@@ -17,8 +17,10 @@
 <a href="https://sm.ms/">图传地址</a>
 
 ## 支付宝收款码&&微信收款码
+<p>
 <img src="https://i.loli.net/2019/08/25/1zPM9qxA6uIYXv8.png" width = "400" />
 <img src="https://i.loli.net/2019/08/25/ZSWldJwVnt5TX6g.png" width = "400" />
+</p>
 
 ## 概览
 
