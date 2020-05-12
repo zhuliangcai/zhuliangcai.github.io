@@ -18,6 +18,15 @@ https://www.jianshu.com/p/99d09406373e
 
 kubectl --help
 
+## 查看资源使用情况 
+查看各个节点的内存cpu使用
+kubectl -n ns-retail-dev top nodes
+查看各个pod的内存使用
+kubectl -n ns-retail-dev top pods
+查看单个pod的内存使用
+kubectl -n ns-retail-dev top pods pod-name
+查看容器数据流
+docker stats 9aa1446a66ca
 ## 获取命名空间
 kubectl get ns
 ## 获取nodes
